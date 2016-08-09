@@ -1,0 +1,132 @@
+/* 
+.slider {
+	margin: 20px auto;
+}
+.coments-box {
+	height: auto;
+	padding: 10px 0 40px;
+}
+.icon-coments {
+	font-size: 80px;
+	color: #fff;
+	font-weight: 900;
+	font-family: 'PlayFair';
+	text-align: center;
+}
+.coments-text {
+	text-align: center;
+	color: #e8e8eb;
+}
+.coments-text p {
+	font: 16px "PlayFairRegular";
+	font-weight: 100;
+}
+.coments-text hr {
+	margin-top: 55px;
+	width: 70px;
+	height: 1px;
+	border: none;
+	background: #db012c;
+}
+.coments-text h3,
+.coments-text h4 {
+	font-weight: 900;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.coments-text h4 {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    opacity: 0.3;
+}
+.slick-prev {
+	left: -50px !important;
+}
+.slick-next {
+	right: -50px !important;
+}
+.slick-track {
+	padding: 25px 0;
+}
+.slick-center img {
+	transform: scale(1.3) !important;
+	transition: ease-in-out 0.5s;
+	opacity: 1 !important;
+	border: 1px solid #fff
+} */
+
+.slick-slide {
+      margin: 0px 20px;
+    }
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+.slider {
+	width: 50%;
+	margin: 20px auto;
+}
+.coments-box {
+	height: auto;
+	padding: 10px 0 40px;
+}
+.icon-coments {
+	font-size: 80px;
+	color: #fff;
+	font-weight: 900;
+	font-family: 'PlayFair';
+	text-align: center;
+}
+.coments-text {
+	text-align: center;
+	color: #e8e8eb;
+}
+.coments-text p {
+	font: 16px "PlayFairRegular";
+	font-weight: 100;
+}
+.coments-text hr {
+	margin-top: 55px;
+	width: 70px;
+	height: 1px;
+	border: none;
+	background: #db012c;
+}
+.coments-text h3,
+.coments-text h4 {
+	font-weight: 900;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.coments-text h4 {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+
+.slick-slide img {
+    width: 100%;
+    border-radius: 50%;
+}
+.slick-prev {
+	left: -50px !important;
+}
+.slick-next {
+	right: -50px !important;
+}
+.slick-track {
+	padding: 25px 0;
+}
+.slick-center {
+	transform: scale(1.3) !important;
+	transition: ease-out 0.5s;
+	z-index: 9000
+}

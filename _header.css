@@ -1,0 +1,137 @@
+body {
+	font-family: sans-serif;
+	font-size: 16px;
+	min-width: 320px;
+	position: relative;
+	line-height: 1.6;
+	font-family: "RobotoRegular", sans-serif;
+	overflow-x: hidden;
+}
+h2 {
+	font-family: 'PlayFair';
+}
+.hidden {
+	display: none;
+}
+/* header */
+.custom {
+	margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    overflow: hidden;
+}
+.link-read-more {
+	font-size: 14px;
+	font-weight: 900;
+	padding: 10px 15px;
+	border: 1px solid #00e0d0;
+	text-transform: uppercase;
+	color: #00e0d0;
+	display: inline-block;
+	text-decoration: none;
+}
+.link-read-more:hover {
+	text-decoration: none;
+}
+
+
+header {
+	background: url(img/bg-1.jpg) no-repeat center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.logo-con {
+	padding: 35px 0;
+}
+.logo {
+	float: left;
+}
+.navbar-toggle {
+	border: 1px solid #357393;
+}
+.navbar-toggle .icon-bar {
+	background: #00e0d0;
+}
+.navigation-header {
+	position: relative;
+	padding: 15px 0;
+	z-index: 1;
+}
+.navigation-list li a {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding: 16px 16px;
+	display: block;
+}
+.navigation-list li a:hover {
+	color: #00e0d0;
+	background: transparent;
+}
+#menu.fixed {
+    position:fixed;
+    top:0;
+    width:100%;
+}
+
+.item h2 {
+    margin: 0;     
+    color: #fff;
+    font-size: 32px;   
+}
+.carousel {
+	padding: 150px 0 60px;
+	height: 590px !important;
+}
+.item {  
+    text-align: center;
+    height: 100%;
+}
+.item p {
+	font-size: 14px;
+	margin: 0;
+}
+.item a {
+	margin: 40px 0 130px;
+	font-size: 14px;
+	font-weight: 900;
+	padding: 10px 15px;
+	border: 1px solid #00e0d0;
+	text-transform: uppercase;
+	color: #00e0d0;
+	display: inline-block;
+	text-decoration: none;
+}
+.item a:hover {
+	color: #fff;
+	border: 1px solid #fff;
+}
+.item hr {
+	background-color: #00e0d0;
+	border: none;
+    width: 50px;
+    height: 1px;
+}
+.carousel-inner {
+	height: 100%;
+}
+.carousel-caption {
+	position: static;
+	padding-left: 8%;
+	padding-right: 8%;
+}
+.carousel-indicators {
+	bottom: -15px;
+}
+.carousel-indicators .active {
+	background-color: #00e0d0;
+}
+.carousel2{
+	margin: 20px 0;
+}
+.control-buttons{
+	text-align:center;
+}
+
